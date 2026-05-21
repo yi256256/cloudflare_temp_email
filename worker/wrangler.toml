@@ -1,0 +1,21 @@
+name = "temp-email-worker"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "temp-email-db"
+database_id = "6a288644-895a-4ab6-8428-85faf07b804c"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "2c27983a6178462aa7edf9584bb69aa1"
+
+[vars]
+PREFIX = "tmp"
+DOMAINS = '["66699996.xyz"]'
+JWT_SECRET = "Aa1Bb2Cc3Dd4Ee5Ff6Gg7Hh8Ii9Jj0KkLlMmNn"
+ADMIN_PASSWORDS = '["Qwer1234"]'
+ENABLE_AUTO_REPLY = false
+DISABLE_ANONYMOUS_USER_CREATE_EMAIL = false
