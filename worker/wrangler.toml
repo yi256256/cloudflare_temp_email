@@ -14,7 +14,7 @@ id = "2c27983a6178462aa7edf9584bb69aa1"
 
 [vars]
 PREFIX = "tmp"
-DOMAINS = '["66699996.xyz"]'
+DOMAINS = '["66699996.xyz","fangyi.asia","infoyifang.ccwu.cc"]'
 JWT_SECRET = "Aa1Bb2Cc3Dd4Ee5Ff6Gg7Hh8Ii9Jj0KkLlMmNn"
 ADMIN_PASSWORDS = '["Qwer1234"]'
 ENABLE_AUTO_REPLY = false
